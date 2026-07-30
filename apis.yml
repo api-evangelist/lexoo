@@ -1,22 +1,121 @@
 aid: lexoo
 name: Lexoo
-description: Lexoo is a company surfaced as a portfolio company of earlybird and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+type: Index
+description: >-
+  Lexoo is a commercial legal services provider that operates as an outsourced
+  in-house legal team for businesses, concentrating on commercial contract
+  review and negotiation. The company handles routine contract work at fixed
+  rates per agreement with a stated maximum two-day turnaround, so internal
+  legal and sales teams are freed for more strategic work. Alongside contract
+  review, Lexoo runs multi-country projects that engage local counsel across
+  more than 70 countries for work such as terms and conditions localisation and
+  regulatory research, and it builds playbooks and training materials that let
+  client teams handle standard agreements independently. The practice is led by
+  Nathalie Lambert and serves scale-ups and start-ups, with published client
+  references including Trustpilot, Nielsen, ComplyAdvantage, Xeneta, Chattermill
+  and Jokr. Lexoo is not an API-first company: it publishes no developer portal,
+  documentation or SDKs, and its only machine-readable surfaces are the standard
+  WordPress REST API and RSS feed exposed by its marketing site.
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://lexoo.com/wp-content/uploads/2024/10/cropped-lexoo-logo-IN-Copy-192x192.png
+tags:
+  - Legal
+  - Legal Services
+  - Contract Review
+  - Compliance
+  - Professional Services
+  - Legal Technology
+  - Consulting
 url: https://raw.githubusercontent.com/api-evangelist/lexoo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
-- earlybird
-x-tier: stub
-x-tier-reason: portfolio-lead
+  - earlybird
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
-tags:
-- Company
-apis: []
+modified: '2026-07-19'
+apis:
+  - aid: lexoo:wordpress-rest-api
+    name: Lexoo WordPress REST API
+    description: >-
+      The Lexoo website is built on WordPress and exposes the standard WordPress
+      REST API at /wp-json/, serving JSON representations of the site's pages,
+      media, taxonomies and settings. The live discovery document advertises the
+      wp/v2 namespace alongside plugin namespaces, and the site currently
+      publishes eleven pages and no posts. This is an incidental content API
+      surfaced by the CMS rather than a product API offered by Lexoo.
+    humanURL: https://developer.wordpress.org/rest-api/
+    baseURL: https://lexoo.com/wp-json/wp/v2
+    tags:
+      - Content
+      - JSON
+      - REST
+      - WordPress
+    properties:
+      - type: Documentation
+        url: https://developer.wordpress.org/rest-api/
+      - type: DiscoveryDocument
+        url: https://lexoo.com/wp-json/
+  - aid: lexoo:rss-feed
+    name: Lexoo RSS Feed
+    description: >-
+      Lexoo's WordPress site publishes a standard RSS 2.0 feed at /feed/ for its
+      main content stream. The feed is well-formed and reachable but currently
+      carries no items, because the site publishes pages only and has no blog
+      posts.
+    humanURL: https://lexoo.com/feed/
+    baseURL: https://lexoo.com
+    tags:
+      - Feed
+      - RSS
+      - Syndication
+    properties:
+      - type: RSSFeed
+        url: https://lexoo.com/feed/
+common:
+  - type: DomainSecurity
+    url: security/lexoo-domain-security.yml
+  - type: LLMsTxt
+    name: Lexoo llms.txt
+    url: llms/lexoo-llms.txt
+  - url: https://lexoo.com/
+    name: Lexoo
+    type: Website
+  - url: https://lexoo.com/team/
+    name: Lexoo Team
+    type: About
+  - url: mailto:team@lexoo.com
+    name: Contact Lexoo
+    type: Contact
+  - url: https://lexoo.com/contract-review/
+    name: Lexoo Contract Review
+    type: Product
+  - url: https://lexoo.com/multi-country-projects/
+    name: Lexoo Multi-Country Projects
+    type: Product
+  - url: https://lexoo.com/scale-ups-start-ups/
+    name: Lexoo for Scale-ups and Start-ups
+    type: Product
+  - url: https://www.linkedin.com/company/lexoolimited
+    name: Lexoo on LinkedIn
+    type: LinkedIn
 maintainers:
-- FN: Kin Lane
-  email: kin@apievangelist.com
-- FN: APIs.json
-  email: info@apis.io
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+  - FN: APIs.json
+    email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
