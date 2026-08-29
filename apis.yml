@@ -16,6 +16,17 @@ description: >-
   and Jokr. Lexoo is not an API-first company: it publishes no developer portal,
   documentation or SDKs, and its only machine-readable surfaces are the standard
   WordPress REST API and RSS feed exposed by its marketing site.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: approval
