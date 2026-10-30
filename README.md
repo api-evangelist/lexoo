@@ -64,6 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lexoo is a company surfaced as a portfolio company of earlybird and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Lexoo is a commercial legal services provider that operates as an outsourced in-house legal team for businesses, concentrating on commercial contract review and negotiation. The company handles routine contract work at fixed rates per agreement with a stated maximum two-day turnaround, so internal legal and sales teams are freed for more strategic work. Alongside contract review, Lexoo runs multi-country projects that engage local counsel across more than 70 countries for work such as terms and conditions localisation and regulatory research, and it builds playbooks and training materials that let client teams handle standard agreements independently. The practice is led by Nathalie Lambert and serves scale-ups and start-ups, with published client references including Trustpilot, Nielsen, ComplyAdvantage, Xeneta, Chattermill and Jokr. Lexoo is not an API-first company: it publishes no developer portal, documentation or SDKs, and its only machine-readable surfaces are the standard WordPress REST API and RSS feed exposed by its marketing site.
 
-Backed by: earlybird
+**Areas:** Legal · Legal Services · Contract Review · Compliance · Professional Services · Legal Tech · Consulting
+
+## Lexoo on APIs.io
+
+Everything profiled for Lexoo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lexoo/](https://apis.io/providers/lexoo/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Lexoo Website (WordPress REST)](https://apis.io/apis/lexoo/lexoo-com-website-wordpress-rest/) — The public WordPress REST API (wp-json) of the Lexoo website at lexoo.com: the route index of the site's content management system, catalogued as one site…
+- [Lexoo RSS Feed](https://apis.io/apis/lexoo/rss-feed/) — Lexoo's WordPress site publishes a standard RSS 2.0 feed at /feed/ for its main content stream. The feed is well-formed and reachable but currently carries…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lexoo Domain Security](https://apis.io/security/lexoo/lexoo-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lexoo.com/)
+
+## API Evangelist rating
+
+**Kin Score 6.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lexoo/](https://apis.io/providers/lexoo/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lexoo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lexoo/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
